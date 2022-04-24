@@ -1,0 +1,51 @@
+@media screen and (max-width: 700px){
+   header .container{
+  display: flex;
+  flex-direction: column;
+   }
+.principal{
+   text-align: center;
+   padding: 5px 10px 5px 10px;
+   background-position: center;
+ 
+}
+  
+ 
+
+header{
+   height: 120px;
+   padding-top: 20px;
+   font-size: 11px;
+
+}
+
+.container nav {
+   color: red;
+   padding-top: 10px;
+}
+
+.principal .descricao{
+   width: 100%;
+   font-size: 10px;
+   text-align: center;
+   padding: 0px 20px 0 20px;
+}
+.botao{
+   display: flex;
+   flex-direction: row;
+   width: 200px;
+   margin-top: 8px;
+   align-items: center;
+   text-align: center 
+}
+.botoes{
+   width: 100%;
+   margin: 0 auto;
+   display: flex; 
+   flex-wrap: wrap; 
+   justify-content: center; 
+   flex-direction: row; 
+   text-align: center;
+}
+
+}
