@@ -1,59 +1,75 @@
-:root{
-  --vermelho: #e50914;
+:root {
+  --vermelho: #E50914;
   --preto: #141414;
 }
 
 
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   background-color: var(--preto);
-  font-family: 'Arial', Times, serif;
+  font-family: 'Open Sans', sans-serif;
   color: white;
 }
-header{
-   height: 80px;
-   padding: 20px 15px;
+
+header {
+  height: 11  0px;
+  padding: 15px 20px 15px 20px;
+  align-items: center;
+  width: 100%;
+  display: flex;
+
 }
 
-header .container{
+header .container {
+  margin-left: 56%;
   display: flex;
   align-items: center;
+  position: relative;
+  text-align: center;
   justify-content: space-between;
-  
+
 
 }
-
-header .logo{
-  color: var(--vermelho);
-  font-family: 'Arial Black', Helvetica, sans-serif;
+.titulo-sub{
   margin-left: 3%;
+  align-items: center;
+  display: flex;
+  justify-content: flex;
+  flex-direction: column;
+}
+
+header .logo {
+  color: var(--vermelho);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
   font-size: 35px;
   
+
 }
 
-header nav a{
+header nav a {
   text-decoration: none;
   color: #aaa;
   margin-left: 20px;
 }
 
-header nav a:hover{
+header nav a:hover {
   color: #FFFFFF;
 }
 
 
 
-.principal{
+.principal {
   font-size: 15px;
-  background-image: linear-gradient(rgba(0, 0, 0, .50),rgba(0, 0, 0, .50)100%), url('../img/twd.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('../img/twd.jpg');
   height: 400px;
   background-size: cover;
-  
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -62,41 +78,43 @@ header nav a:hover{
   padding-bottom: 1.2%;
 }
 
-.principal .descricao{
-   margin-bottom: 30px;
-   margin-top: 10px;
-   width: 60%;
-}
-.titulo{
-   font-size: 35px;
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   margin-top: 15%;
+.principal .descricao {
+  margin-bottom: 30px;
+  margin-top: 10px;
+  width: 60%;
 }
 
-.botao{
-   background-color: rgba(0, 0, 0, .50);
-   border: none;
-   color: white;
-   padding: 15px 30px;
-   margin-right: 10px;
-   font-size: 12px;
-   transition: 1sec ease all;
+.titulo {
+  font-size: 35px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 15%;
 }
 
-.botao:hover{
-   background-color: white;
-   color: black;
-}
-button i{
-   margin-right: 10px;
-}
-
-.box-filme{
-   width: 100%;
-   height: 100%;
-   display: block;
-}
-.carrosel{
-   margin-top: 10px;
+.botao {
+  background-color: rgba(0, 0, 0, .50);
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  margin-right: 10px;
+  font-size: 12px;
+  transition: 1sec ease all;
 }
 
+.botao:hover {
+  background-color: white;
+  color: black;
+}
+
+button i {
+  margin-right: 10px;
+}
+
+.box-filme {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.carrosel {
+  margin-top: 10px;
+}
