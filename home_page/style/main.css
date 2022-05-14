@@ -17,12 +17,11 @@ body {
 }
 
 header {
-  height: 11  0px;
+  height: 11 0px;
   padding: 15px 20px 15px 20px;
   align-items: center;
   width: 100%;
   display: flex;
-
 }
 
 header .container {
@@ -32,10 +31,9 @@ header .container {
   position: relative;
   text-align: center;
   justify-content: space-between;
-
-
 }
-.titulo-sub{
+
+.titulo-sub {
   margin-left: 3%;
   align-items: center;
   display: flex;
@@ -48,7 +46,7 @@ header .logo {
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   font-size: 35px;
-  
+
 
 }
 
@@ -117,4 +115,24 @@ button i {
 
 .carrosel {
   margin-top: 10px;
+}
+.container-2{
+  height: 200px;
+  width: 60%;
+  border-radius: 10px;
+  margin: 20px auto;
+  background-color:  rgba(242, 234, 234, 0.91);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.container-2 .text-container-2{
+  border: 1px solid red;
+  width: 80%;
+  color: black;
+  height: 90%;
+  margin: 10px auto;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
 }
