@@ -7,8 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    object-fit: contain
-}       
+}
 
 #slide {
     align-items: center;
@@ -19,20 +18,21 @@
     position: cover;
 }
 
-#slide img {
+#slide div {
     opacity: 0;
-    position: relative;
+    display: none;
     width: 100%;
     height: 550px;
     object-fit: cover;
-    transition: ease-in-out 1000ms;
 
 
 }
 
-#slide img.selected {
-
-    opacity: 0.8;
+#slide div.selected {
+    display: block;
+    animation: slide;
+    animation-timing-function: ease-in-out;
+    animation-duration: 10s;
 }
 
 .box-img-slide {
@@ -40,6 +40,91 @@
     justify-content: center;
     display: flex;
     width: 100%;
-    height: 600px;
+    height: 500px;
     position: absolute;
+}
+
+@keyframes slide {
+    from {
+        opacity: 0;
+        display: none;
+    }
+
+    20% {
+        opacity: 1;
+        display: block;
+    }
+    80%{
+        opacity: 1;
+        display: block;
+    }
+    to{
+        opacity: 0;
+        display: none;
+    }
+}
+
+
+#film1 {
+    background-image: linear-gradient(rgba(0, 0, 0, .40), rgba(0, 0, 0, .40)100%), url('https://2.bp.blogspot.com/-3dZHwWyteoM/XKpNr-qOOjI/AAAAAAAABUw/fXMZ0SC12dIyeWqQjrNTLwQ71upVGOHJgCKgBGAs/w3840-h1600-c/avengers-endgame-uhdpaper.com-8K-94.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: auto;
+}
+
+#film2 {
+    background-image: linear-gradient(rgba(0, 0, 0, .40), rgba(0, 0, 0, .40)100%), url('https://a-static.besthdwallpaper.com/spider-man-into-the-spider-verse-15k-wallpaper-3440x1440-22226_15.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: auto;
+}
+
+#film3 {
+    background-image: linear-gradient(rgba(0, 0, 0, .40), rgba(0, 0, 0, .40)100%), url('https://preview.redd.it/twm1d5bsyj181.png?auto=webp&s=fdbd1d05828677ee54d5ccd517d6870d591382c4');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: auto;
+}
+
+#film4 {
+    background-image: linear-gradient(rgba(0, 0, 0, .40), rgba(0, 0, 0, .40)100%), url('https://www.themoviedb.org/t/p/original/dIWwZW7dJJtqC6CgWzYkNVKIUm8.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: auto;
+}
+
+#film5 {
+    background-image: linear-gradient(rgba(0, 0, 0, .40), rgba(0, 0, 0, .40)100%), url('https://www.themoviedb.org/t/p/original/46LvLzMD19tzyoPc7HUf4PPvi62.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: auto;
+}
+
+#film6 {
+    background-image: linear-gradient(rgba(0, 0, 0, .40), rgba(0, 0, 0, .40)100%), url('https://primeiraesetimaarte.com.br/wp-content/uploads/2018/12/P%C3%B4ster-Nacional-A-Cinco-Passos-de-Voc%C3%AA-64x94cm-Copia.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: auto;
+}
+
+#film7 {
+    background-image: linear-gradient(rgba(0, 0, 0, .40), rgba(0, 0, 0, .40)100%), url('https://a-static.besthdwallpaper.com/transformers-the-last-knight-optimus-prime-wallpaper-3440x1440-21105_15.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: auto;
+}
+
+#film8 {
+    background-image: linear-gradient(rgba(0, 0, 0, .40), rgba(0, 0, 0, .40)100%), url('https://images5.alphacoders.com/112/thumb-1920-1126978.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: auto;
 }
