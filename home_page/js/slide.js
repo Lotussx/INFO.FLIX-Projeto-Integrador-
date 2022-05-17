@@ -1,5 +1,5 @@
 indexAtual = 0,
-    images = document.querySelectorAll("#slide div")
+images = document.querySelectorAll("#slide div")
 max = images.length;
 console.log(max)
 
