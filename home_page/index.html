@@ -19,7 +19,7 @@
 <body>
    <header>
       <div class="titulo-sub">
-         <h2 class="logo">INFO.FLIX</h2>
+         <h2>INFO.FLIX</h2>
          <p>Tudo sobre seu filme favorito!</p>
       </div>
       <div class="container">
@@ -50,7 +50,9 @@
             <section class="info-pai">
                <section class="info-filho">
                   <h1>Homem-Aranha no Aranhaverso</h1>
-                  <button class="botao">Mais Informações</button>
+                  <button class="botao">
+                     <i class="fa-solid fa-circle-info"></i>
+                     Mais Informações</button>
                </section>
             </section>
          </div>
@@ -59,7 +61,8 @@
             <section class="info-pai">
                <section class="info-filho">
                   <h1>Arcane</h1>
-                  <button class="botao">Mais Informações</button>
+                  <button class="botao"><i class="fa-solid fa-circle-info"></i>
+                     Mais Informações</button>
                </section>
             </section>
          </div>
@@ -68,7 +71,8 @@
             <section class="info-pai">
                <section class="info-filho">
                   <h1>Your Name</h1>
-                  <button class="botao">Mais Informações</button>
+                  <button class="botao"><i class="fa-solid fa-circle-info"></i>
+                     Mais Informações</button>
                </section>
             </section>
          </div>
@@ -77,7 +81,8 @@
             <section class="info-pai">
                <section class="info-filho">
                   <h1>Interestelar</h1>
-                  <button class="botao">Mais Informações</button>
+                  <button class="botao"><i class="fa-solid fa-circle-info"></i>
+                     Mais Informações</button>
                </section>
             </section>
          </div>
@@ -86,7 +91,8 @@
             <section class="info-pai">
                <section class="info-filho">
                   <h1>A cinco passos de você</h1>
-                  <button class="botao">Mais Informações</button>
+                  <button class="botao"><i class="fa-solid fa-circle-info"></i>
+                     Mais Informações</button>
                </section>
             </section>
          </div>
@@ -95,7 +101,8 @@
             <section class="info-pai">
                <section class="info-filho">
                   <h1>Transformers</h1>
-                  <button class="botao">Mais Informações</button>
+                  <button class="botao"><i class="fa-solid fa-circle-info"></i>
+                     Mais Informações</button>
                </section>
             </section>
          </div>
@@ -104,11 +111,14 @@
             <section class="info-pai">
                <section class="info-filho">
                   <h1>Godzilla vs Kong</h1>
-                  <button class="botao">Mais Informações</button>
+                  <button class="botao"><i class="fa-solid fa-circle-info"></i>
+                     Mais Informações</button>
                </section>
             </section>
          </div>
       </div>
+      <img class="seta-baixo" src="img/seta-baixo.png" alt="">
+
    </div>
    <br><br><br><br>
    <div class="container-2">
@@ -119,48 +129,42 @@
       </div>
    </div>
    <br><br><br><br>
-   <div class="carrosel-pai">
-      <div class="carrosel-filho">
-         <div class="carrosel">
-            <div class="owl-carousel owl-theme">
-               <div class="item">
-                  <img class="box-filme" src="img/min1.jpg" alt="img/min1.jpg">
-               </div>
-               <div class="item">
-                  <img class="box-filme" src="img/min2.jpg" alt="img/min1.jpg">
-               </div>
-               <div class="item">
-                  <img class="box-filme" src="img/min3.jpg" alt="img/min1.jpg">
-               </div>
-               <div class="item">
-                  <img class="box-filme" src="img/min4.jpg" alt="img/min1.jpg">
-               </div>
-               <div class="item">
-                  <img class="box-filme" src="img/min5.jpg" alt="img/min1.jpg">
-               </div>
-               <div class="item">
-                  <img class="box-filme" src="img/min6.jpg" alt="img/min1.jpg">
-               </div>
-               <div class="item">
-                  <img class="box-filme" src="img/min7.jpg" alt="img/min1.jpg">
-               </div>
-               <div class="item">
-                  <img class="box-filme" src="img/min8.jpg" alt="img/min1.jpg">
-               </div>
-            </div>
+   <div class="carrosel">
+      <div class="owl-carousel owl-theme" id="sla1">
+         <div class="item" id="carrosel-img-1">
+            <img src="img/min1.jpg" alt="">
          </div>
-
+         <div class="item" id="carrosel-img-2">
+            <img src="img/min2.jpg" alt="">
+         </div>
+         <div class="item" id="carrosel-img-3">
+            <img src="img/min3.jpg" alt="">
+         </div>
+         <div class="item" id="carrosel-img-4">
+            <img src="img/min4.jpg" alt="">
+         </div>
+         <div class="item" id="carrosel-img-5">
+            <img src="img/min5.jpg" alt="">
+         </div>
+         <div class="item" id="carrosel-img-6">
+            <img src="img/min6.jpg" alt="">
+         </div>
+         <div class="item" id="carrosel-img-7">
+            <img src="img/min7.jpg" alt="">
+         </div>
+         <div class="item" id="carrosel-img-8">
+            <img src="img/min8.jpg" alt="">
+         </div>
       </div>
-   </div>
 
-   <br><br>
-   
+      <br><br>
 
-   <script src="https://kit.fontawesome.com/4600f6d9ae.js" crossorigin="anonymous"></script>
-   <script src="js/owl/jquery.min.js"></script>
-   <script src="js/owl/owl.carousel.min.js"></script>
-   <script src="js/main.js"></script>
-   <script src="js/slide.js"></script>
+
+      <script src="https://kit.fontawesome.com/4600f6d9ae.js" crossorigin="anonymous"></script>
+      <script src="js/owl/jquery.min.js"></script>
+      <script src="js/owl/owl.carousel.min.js"></script>
+      <script src="js/main.js"></script>
+      <script src="js/slide.js"></script>
 </body>
 
 </html>

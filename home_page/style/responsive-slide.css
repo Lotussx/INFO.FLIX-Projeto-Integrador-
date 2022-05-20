@@ -1,83 +1,222 @@
 @media screen and (max-width: 800px) {
 
     .slide-pai {
-        height: 250px;
+        height: 60vh;
     }
 
     .slide {
-        height: 100%;
+        height: 60vh;
+
     }
 
-    .slide-pai div {
-        width: 100%;
-        height: 250px;
+
+    #slide div.selected {
+        height: 58vh;
     }
 
-    .box-img-slide {
-        height: 250px;
+    .info-filho h1 {
+        font-size: 30px;
+        text-shadow: 5px 5px 2px black;
+        font-family: 'Poppins', sans-serif;
+        margin-bottom: 10px;
+        margin-top: 100px;
+        cursor: default;
+        text-transform: uppercase;
+    }
 
+    .botao {
+        width: 40%;
+        padding: 15px 30px;
+        margin-right: 10px;
+        font-family: 'Poppins', sans-serif;
+        cursor: pointer;
+        font-size: 14px;
+        transition: 0.5s ease-in-out;
+    }
+
+    .seta-baixo {
+        width: 50px;
+        height: 35px;
+        transition: transform .3s ease;
+        cursor: pointer;
+
+    }
+
+    #film1 {
+        background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, 0.99)90%), url('https://2.bp.blogspot.com/-3dZHwWyteoM/XKpNr-qOOjI/AAAAAAAABUw/fXMZ0SC12dIyeWqQjrNTLwQ71upVGOHJgCKgBGAs/w3840-h1600-c/avengers-endgame-uhdpaper.com-8K-94.jpg');
+        background-position: center;
+        background-size: 130%;
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+
+    #film2 {
+        background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .99)90%), url('https://a-static.besthdwallpaper.com/spider-man-into-the-spider-verse-15k-wallpaper-3440x1440-22226_15.jpg');
+        background-position: center;
+        background-size: 130%;
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+
+    #film3 {
+        background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .99)90%), url('https://preview.redd.it/twm1d5bsyj181.png?auto=webp&s=fdbd1d05828677ee54d5ccd517d6870d591382c4');
+        background-position: center;
+        background-size: 130%;
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+
+    #film4 {
+        background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .99)90%), url('https://www.themoviedb.org/t/p/original/dIWwZW7dJJtqC6CgWzYkNVKIUm8.jpg');
+        background-position: center;
+        background-size: 130%;
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+
+    #film5 {
+        background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .99)90%), url('https://www.themoviedb.org/t/p/original/46LvLzMD19tzyoPc7HUf4PPvi62.jpg');
+        background-position: center;
+        background-size: 130%;
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+
+    #film6 {
+        background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .99)90%), url('https://primeiraesetimaarte.com.br/wp-content/uploads/2018/12/P%C3%B4ster-Nacional-A-Cinco-Passos-de-Voc%C3%AA-64x94cm-Copia.jpg');
+        background-position: center;
+        background-size: 130%;
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+
+    #film7 {
+        background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .99)90%), url('https://a-static.besthdwallpaper.com/transformers-the-last-knight-optimus-prime-wallpaper-3440x1440-21105_15.jpg');
+        background-position: center;
+        background-size: 130%;
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+
+    #film8 {
+        background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .99)90%), url('https://images5.alphacoders.com/112/thumb-1920-1126978.jpg');
+        background-position: center;
+        background-size: 130%;
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .slide-pai {
+        height: 50vh;
+        width: 100vw;
+    }
+
+    .slide {
+        height: 70vh;
 
     }
 
     #slide div.selected {
-        height: 250px;
+        height: 45vh;
     }
-   
+
+    .info-filho h1 {
+        font-size: 4vw;
+        width: 100%;
+        text-shadow: 5px 5px 2px black;
+        font-family: 'Poppins', sans-serif;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        cursor: default;
+        text-transform: uppercase;
+    }
+
+    .botao {
+        width: 50%;
+        padding: 15px 30px;
+        margin-right: 10px;
+        font-family: 'Poppins', sans-serif;
+        cursor: pointer;
+        font-size: 12px;
+        transition: 0.5s ease-in-out;
+    }
+
+    .seta-baixo {
+        width: 50px;
+        height: 35px;
+        margin-bottom: -150PX;
+        transition: transform .3s ease;
+        cursor: pointer;
+    }
 
     #film1 {
-        background-image: linear-gradient(rgba(0, 0, 0, .40), rgba(0, 0, 0, .40)100%), url('https://2.bp.blogspot.com/-3dZHwWyteoM/XKpNr-qOOjI/AAAAAAAABUw/fXMZ0SC12dIyeWqQjrNTLwQ71upVGOHJgCKgBGAs/w3840-h1600-c/avengers-endgame-uhdpaper.com-8K-94.jpg');
-        background-size: 120%;
+        background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, 0.99)95%), url('https://2.bp.blogspot.com/-3dZHwWyteoM/XKpNr-qOOjI/AAAAAAAABUw/fXMZ0SC12dIyeWqQjrNTLwQ71upVGOHJgCKgBGAs/w3840-h1600-c/avengers-endgame-uhdpaper.com-8K-94.jpg');
+        background-position: center;
+        background-size: 130%;
         background-repeat: no-repeat;
-        background-position: auto;
+        background-position: top;
     }
 
     #film2 {
-        background-image: linear-gradient(rgba(0, 0, 0, .40), rgba(0, 0, 0, .40)100%), url('https://a-static.besthdwallpaper.com/spider-man-into-the-spider-verse-15k-wallpaper-3440x1440-22226_15.jpg');
-        background-size: 120%;
+        background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .99)90%), url('https://a-static.besthdwallpaper.com/spider-man-into-the-spider-verse-15k-wallpaper-3440x1440-22226_15.jpg');
+        background-position: center;
+        background-size: 130%;
         background-repeat: no-repeat;
-        background-position: auto;
+        background-position: top;
     }
 
     #film3 {
-        background-image: linear-gradient(rgba(0, 0, 0, .40), rgba(0, 0, 0, .40)100%), url('https://preview.redd.it/twm1d5bsyj181.png?auto=webp&s=fdbd1d05828677ee54d5ccd517d6870d591382c4');
-        background-size: 120%;
+        background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .99)95%), url('https://preview.redd.it/twm1d5bsyj181.png?auto=webp&s=fdbd1d05828677ee54d5ccd517d6870d591382c4');
+        background-position: center;
+        background-size: 130%;
         background-repeat: no-repeat;
-        background-position: auto;
+        background-position: top;
     }
 
     #film4 {
-        background-image: linear-gradient(rgba(0, 0, 0, .40), rgba(0, 0, 0, .40)100%), url('https://www.themoviedb.org/t/p/original/dIWwZW7dJJtqC6CgWzYkNVKIUm8.jpg');
-        background-size: 120%;
+        background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .99)100%), url('https://www.themoviedb.org/t/p/original/dIWwZW7dJJtqC6CgWzYkNVKIUm8.jpg');
+        background-position: center;
+        background-size: 130%;
         background-repeat: no-repeat;
-        background-position: auto;
+        background-position: top;
     }
 
     #film5 {
-        background-image: linear-gradient(rgba(0, 0, 0, .40), rgba(0, 0, 0, .40)100%), url('https://www.themoviedb.org/t/p/original/46LvLzMD19tzyoPc7HUf4PPvi62.jpg');
-        background-size: 120%;
+        background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .99)100%), url('https://www.themoviedb.org/t/p/original/46LvLzMD19tzyoPc7HUf4PPvi62.jpg');
+        background-position: center;
+        background-size: 130%;
         background-repeat: no-repeat;
-        background-position: auto;
+        background-position: top;
     }
 
     #film6 {
-        background-image: linear-gradient(rgba(0, 0, 0, .40), rgba(0, 0, 0, .40)100%), url('https://primeiraesetimaarte.com.br/wp-content/uploads/2018/12/P%C3%B4ster-Nacional-A-Cinco-Passos-de-Voc%C3%AA-64x94cm-Copia.jpg');
+        background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .99)70%), url('https://primeiraesetimaarte.com.br/wp-content/uploads/2018/12/P%C3%B4ster-Nacional-A-Cinco-Passos-de-Voc%C3%AA-64x94cm-Copia.jpg');
+        background-position: center;
         background-size: 120%;
         background-repeat: no-repeat;
-        background-position: auto;
+        background-position: top;
     }
 
     #film7 {
-        background-image: linear-gradient(rgba(0, 0, 0, .40), rgba(0, 0, 0, .40)100%), url('https://a-static.besthdwallpaper.com/transformers-the-last-knight-optimus-prime-wallpaper-3440x1440-21105_15.jpg');
-        background-size: 120%;
+        background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .99)80%), url('https://a-static.besthdwallpaper.com/transformers-the-last-knight-optimus-prime-wallpaper-3440x1440-21105_15.jpg');
+        background-position: center;
+        background-size: 130%;
         background-repeat: no-repeat;
-        background-position: auto;
+        background-position: top;
     }
 
     #film8 {
-        background-image: linear-gradient(rgba(0, 0, 0, .40), rgba(0, 0, 0, .40)100%), url('https://images5.alphacoders.com/112/thumb-1920-1126978.jpg');
-        background-size: 120%;
+        background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .99)100%), url('https://images5.alphacoders.com/112/thumb-1920-1126978.jpg');
+        background-position: center;
+        background-size: 130%;
         background-repeat: no-repeat;
-        background-position: auto;
+        background-position: top;
     }
 
+
 }
+
+

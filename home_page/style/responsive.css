@@ -5,7 +5,7 @@
    }
 
    header {
-      height: 170px;
+      height: 28vh;
       font-size: 12px;
       display: flex;
       text-align: center;
@@ -14,40 +14,91 @@
       flex-direction: column;
 
    }
-.container-2{
-   width: 80%;
-   margin: 0px auto;
-}
-.container-2 .text-container-2{
-   width: 80%;
-}
+
    header .container {
-      width: 100%;
+      width: 100vw;
       justify-content: center;
       align-items: center;
       display: flex;
+      font-size: 15px;
       margin-right: 50%;
-      padding-top: 20px;
+      margin-top: 20px;
       margin-left: 50%;
    }
 
-
-   .botao {
-      display: flex;
-      flex-direction: row;
-      width: 200px;
-      margin-top: 8px;
+   .titulo-sub {
+      margin-left: 0%;
+      margin-top: -20px;
+      width: 50vw;
       align-items: center;
-      text-align: center
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
    }
 
-   .botoes {
-      width: 100%;
-      margin: 0 auto;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      flex-direction: row;
-      text-align: center;
+   header .titulo-sub h2 {
+      color: red;
+      font-family: 'Koulen', sans-serif;
+      font-weight: bold;
+      font-size: 5vmax;
+   }
+   
+
+   .titulo-sub p {
+      right: 100px;
+      margin-top: 0px;
+      font-size: 2vh;
+   }
+
+   .container-2 {
+      width: 80%;
+      margin: 0px auto;
+   }
+
+   .container-2 .text-container-2 {
+      width: 80%;
    }
 }
+
+
+
+@media screen and (max-width: 600px) {
+   header .container {
+      display: flex;
+      flex-direction: column;
+   }
+
+   header {
+      height: 20vh;
+      font-size: 12px;
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+   }
+
+   
+   header .titulo-sub h2 {
+      color: red;
+      margin-top: 35px;
+      font-family: 'Koulen', sans-serif;
+      font-weight: bold;
+      font-size: 5vmax;
+   }
+
+   
+
+   .container-2 .text-container-2 {
+      width: 80%;
+   }
+}
+
+@media screen and (max-width: 500px){
+   .container-2 {
+      width: 90%;
+      margin: 0px auto;
+      margin-top: 150px;
+   } 
+}
+

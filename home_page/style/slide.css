@@ -2,14 +2,23 @@
     box-sizing: border-box;
 }
 
+body {
+    width: 100vw;
+    height: 2000px;
+}
+
 .slide-pai {
-    height: 550px;
+    height: 80vh;
+    width: 100vw;
+    box-sizing: border-box;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 #slide {
+    box-sizing: border-box;
     align-items: flex-start;
     justify-content: flex-start;
     display: flex;
@@ -22,7 +31,7 @@
     opacity: 0;
     display: none;
     width: 100%;
-    height: 550px;
+    height: 540px;
     object-fit: cover;
 
 }
@@ -40,7 +49,6 @@
     display: flex;
     width: 100%;
     height: 550px;
-    position: absolute;
 }
 
 @keyframes slide {
@@ -53,16 +61,82 @@
         opacity: 1;
         display: block;
     }
-    80%{
+
+    80% {
         opacity: 1;
         display: block;
     }
-    to{
+
+    to {
         opacity: 0;
         display: none;
     }
 }
 
+
+.info-pai {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-filho {
+    width: 80%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-filho h1 {
+    font-size: 40px;
+    text-shadow: 5px 5px 2px black;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 150px;
+    cursor: default;
+    text-transform: uppercase;
+}
+
+.botao {
+    background-color: rgba(0, 0, 0, .60);
+    border: none;
+    color: white;
+    width: 20%;
+    padding: 15px 30px;
+    margin-right: 10px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.5s ease-in-out;
+
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+}
+
+button i {
+    margin-right: 10px;
+}
+
+.seta-baixo {
+    width: 45px;
+    height: 30px;
+    transition: transform .3s ease;
+    cursor: pointer;
+
+}
+
+.seta-baixo:hover {
+    transform: scale(1.2);
+}
 
 #film1 {
     background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, 0.99)100%), url('https://2.bp.blogspot.com/-3dZHwWyteoM/XKpNr-qOOjI/AAAAAAAABUw/fXMZ0SC12dIyeWqQjrNTLwQ71upVGOHJgCKgBGAs/w3840-h1600-c/avengers-endgame-uhdpaper.com-8K-94.jpg');
