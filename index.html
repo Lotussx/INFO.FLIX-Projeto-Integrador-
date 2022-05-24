@@ -1,46 +1,31 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <title></title>
-   <link rel="stylesheet" href="css/main.css">
-   <link rel="stylesheet" href="css/responsive.css">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>INF0FLIX</title>
 </head>
-
-<body>  
-   
-    <div class="box">
-        <div class="cadastro_box">
-            <div class="left_box">
-               <h1>Bem Vindo!</h1>
-               <p>Tudo sobre seu filme<br>
-               favorito aqui!</p>
-               <button class="btn">Criar Conta</button>
-
-            </div>
-            <div class="right_box">
-               <h1>Fazer Login</h1>
-               <form class="formulario">
-                  <input type="email" placeholder="E-mail">
-                  <input type="password" placeholder="Senha">
-               </form>
-               
-               <a class="esqueci-senha" href="">Esqueci minha senha</a>
-              
-
-               <a class="btn-link" href="./home_page/index.html"> <button class="btn">Entrar</button>  </a>
-               
-                
-              
-            </div>
-        </div>
-   </div>
-   
+<body>
+    <h2 class="logo">INF0FLIX</h2>
+    <h1 class="titulo1">Quem está assistindo?</h1>
+  
+    <section class="container">
+        <div class="item alinha"><a href="home_page/index.html"><img src="imagens/img-logo-1.png"></a>  <a href="../home_page/index.html"><p>User 1</p></a></div>
+        <div class="item alinha"><a href="home_page/index.html"><img src="imagens/img-logo-5.png"></a>  <a href="../home_page/index.html"><p>User 2</p></a></div>
+        <div class="item alinha"><a href="home_page/index.html"><img src="imagens/img-logo-4.png"></a>  <a href="../home_page/index.html"><p>User 3</p></a></div>
+        <div class="item alinha"><a href="home_page/index.html"><img src="imagens/img-logo-3.png"></a>  <a href="../home_page/index.html"><p>User 4</p></a></div>
+        <div class="item alinha"><a href="home_page/index.html"><img src="imagens/img-logo-2.png"></a>  <a href="../home_page/index.html"><p>User 5</p></a></div>
+    </section>
+<br>
+<br>
+<div class="gerenciar" onclick="erro()">Gerenciar perfis</div>
+       
+    <script>
+            function  erro() {
+            alert('[ERRO] Página em construção...')
+        }
+    </script>
 </body>
 </html>

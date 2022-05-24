@@ -1,11 +1,82 @@
-@media screen and (max-width: 800px) {
+/*Alterações feitas quando a janela do navegador 
+tiver 1200px de largura ou menos:*/
+
+@media screen and (max-width: 1300px) {
    header .container {
       display: flex;
       flex-direction: column;
    }
 
    header {
-      height: 28vh;
+      height: 20vh;
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+   }
+
+   header .container {
+      width: 100vw;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      font-size: 1.5vw;
+      margin-right: 50%;
+      margin-top: 20px;
+      margin-left: 50%;
+   }
+
+   .titulo-sub {
+      width: 50vw;
+      margin-top: 10px;
+      font-size: 1.5vw;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+   }
+
+   header .titulo-sub h2 {
+      color: red;
+      margin-top: -30px;
+      font-size: 4vw;
+      margin-bottom: 10px;
+      font-family: 'Koulen', sans-serif;
+      font-weight: bold;
+   }
+
+
+   .titulo-sub p {
+      right: 100px;
+      margin-top: -20px;
+      font-size: 2vh;
+   }
+
+   .container-2 {
+      width: 80%;
+      margin: 0px auto;
+      margin-top: 30px;
+
+   }
+
+   .container-2 .text-container-2 {
+      width: 80%;
+   }
+}
+
+
+/*Alterações feitas quando a janela do navegador 
+tiver 800px de largura ou menos:*/
+
+@media screen and (max-width: 900px) {
+   header .container {
+      display: flex;
+      flex-direction: column;
+   }
+
+   header {
+      height: 25vh;
       font-size: 12px;
       display: flex;
       text-align: center;
@@ -28,7 +99,7 @@
 
    .titulo-sub {
       margin-left: 0%;
-      margin-top: -20px;
+      margin-top: 10px;
       width: 50vw;
       align-items: center;
       display: flex;
@@ -40,13 +111,13 @@
       color: red;
       font-family: 'Koulen', sans-serif;
       font-weight: bold;
-      font-size: 5vmax;
+      font-size: 4.5vmax;
    }
-   
+
 
    .titulo-sub p {
       right: 100px;
-      margin-top: 0px;
+      margin-top: -10px;
       font-size: 2vh;
    }
 
@@ -61,6 +132,8 @@
 }
 
 
+/*Alterações feitas quando a janela do navegador 
+tiver 600px de largura ou menos:*/
 
 @media screen and (max-width: 600px) {
    header .container {
@@ -69,7 +142,7 @@
    }
 
    header {
-      height: 20vh;
+      height: 25vh;
       font-size: 12px;
       display: flex;
       text-align: center;
@@ -78,27 +151,21 @@
       flex-direction: column;
    }
 
-   
+
    header .titulo-sub h2 {
       color: red;
-      margin-top: 35px;
       font-family: 'Koulen', sans-serif;
       font-weight: bold;
       font-size: 5vmax;
    }
 
-   
+
+   .container-2 {
+      margin-top: 30px;
+   }
+
 
    .container-2 .text-container-2 {
       width: 80%;
    }
 }
-
-@media screen and (max-width: 500px){
-   .container-2 {
-      width: 90%;
-      margin: 0px auto;
-      margin-top: 150px;
-   } 
-}
-

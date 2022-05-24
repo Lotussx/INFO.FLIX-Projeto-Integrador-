@@ -139,7 +139,7 @@ button i {
 }
 
 #film1 {
-    background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, 0.99)100%), url('https://2.bp.blogspot.com/-3dZHwWyteoM/XKpNr-qOOjI/AAAAAAAABUw/fXMZ0SC12dIyeWqQjrNTLwQ71upVGOHJgCKgBGAs/w3840-h1600-c/avengers-endgame-uhdpaper.com-8K-94.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, 0.99)100%), url('../img/slide/endgame.jpg');
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -147,7 +147,7 @@ button i {
 }
 
 #film2 {
-    background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .99)100%), url('https://a-static.besthdwallpaper.com/spider-man-into-the-spider-verse-15k-wallpaper-3440x1440-22226_15.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .99)100%), url('../img/slide/spiderverse.jpg');
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -155,7 +155,7 @@ button i {
 }
 
 #film3 {
-    background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .99)100%), url('https://preview.redd.it/twm1d5bsyj181.png?auto=webp&s=fdbd1d05828677ee54d5ccd517d6870d591382c4');
+    background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .99)100%), url('../img/slide/arcane.jpg');
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -163,7 +163,7 @@ button i {
 }
 
 #film4 {
-    background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .99)100%), url('https://www.themoviedb.org/t/p/original/dIWwZW7dJJtqC6CgWzYkNVKIUm8.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .99)100%), url('../img/slide/yourname.jpg');
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -171,7 +171,7 @@ button i {
 }
 
 #film5 {
-    background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .99)100%), url('https://www.themoviedb.org/t/p/original/46LvLzMD19tzyoPc7HUf4PPvi62.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .99)100%), url('../img/slide/interestelar.jpg');
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -179,7 +179,7 @@ button i {
 }
 
 #film6 {
-    background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .99)100%), url('https://primeiraesetimaarte.com.br/wp-content/uploads/2018/12/P%C3%B4ster-Nacional-A-Cinco-Passos-de-Voc%C3%AA-64x94cm-Copia.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .99)100%), url('../img/slide/cincopassos.jpg');
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -187,7 +187,7 @@ button i {
 }
 
 #film7 {
-    background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .99)100%), url('https://a-static.besthdwallpaper.com/transformers-the-last-knight-optimus-prime-wallpaper-3440x1440-21105_15.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .99)100%), url('../img/slide/transformers.jpg');
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -195,7 +195,23 @@ button i {
 }
 
 #film8 {
-    background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .99)100%), url('https://images5.alphacoders.com/112/thumb-1920-1126978.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .99)100%), url('../img/slide/godzilla.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: auto;
+}
+
+#film9 {
+    background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .99)100%), url('../img/slide/jw2.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: auto;
+}
+
+#film10 {
+    background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .99)100%), url('../img/slide/joker.jpg');
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
