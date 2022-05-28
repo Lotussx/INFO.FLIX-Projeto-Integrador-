@@ -43,13 +43,6 @@ body {
     animation-duration: 10s;
 }
 
-.box-img-slide {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    width: 100%;
-    height: 550px;
-}
 
 @keyframes slide {
     from {
@@ -107,7 +100,7 @@ body {
     background-color: rgba(0, 0, 0, .60);
     border: none;
     color: white;
-    width: 20%;
+    width: 100%;
     padding: 15px 30px;
     margin-right: 10px;
     font-family: 'Poppins', sans-serif;
@@ -117,10 +110,23 @@ body {
 
 }
 
+.info-filho a{
+    width: 20%;
+    text-decoration: none;
+    color: white;
+}
+
 .botao:hover {
     background-color: white;
     color: black;
+
 }
+
+.info-filho a:hover {
+    color: black;
+}
+
+
 
 button i {
     margin-right: 10px;

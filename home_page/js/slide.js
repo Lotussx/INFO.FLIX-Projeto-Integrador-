@@ -1,13 +1,11 @@
 indexAtual = 0,
 images = document.querySelectorAll("#slide div")
 max = images.length;
-console.log(max)
 
 function nextImage() {
 
     images[indexAtual]
         .classList.remove("selected")
-
 
     indexAtual++
 

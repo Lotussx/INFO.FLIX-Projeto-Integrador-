@@ -100,3 +100,17 @@ header nav a:hover {
 .container-2 .text-container-2 h2 {
   padding-bottom: 10px;
 }
+
+.title-owl {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+
+.title-owl h3 {
+  margin-top: 0px;
+  margin-left: 2vw;
+  font-size: 1.45vw;
+}
+

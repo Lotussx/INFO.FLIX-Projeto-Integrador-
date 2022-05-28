@@ -63,6 +63,12 @@ tiver 1200px de largura ou menos:*/
    .container-2 .text-container-2 {
       width: 80%;
    }
+
+   .title-owl h3 {
+      margin-top: 0px;
+      margin-left: 2vw;
+      font-size: 2.2vmax;
+   }
 }
 
 
@@ -129,6 +135,13 @@ tiver 800px de largura ou menos:*/
    .container-2 .text-container-2 {
       width: 80%;
    }
+
+   .title-owl h3 {
+      margin-top: 0px;
+      margin-left: 2vw;
+      font-size: 2.5vmax;
+   }
+
 }
 
 
