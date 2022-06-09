@@ -99,7 +99,7 @@ tiver 800px de largura ou menos:*/
       display: flex;
       font-size: 15px;
       margin-right: 50%;
-      margin-top: 20px;
+      margin-top: 0px;
       margin-left: 50%;
    }
 
@@ -155,30 +155,82 @@ tiver 600px de largura ou menos:*/
    }
 
    header {
-      height: 25vh;
-      font-size: 12px;
+      height: 16vh;
       display: flex;
       text-align: center;
       align-items: center;
-      justify-content: center;
+      justify-content: flex-start;
       flex-direction: column;
+      margin: 0;
+      padding: 0;
    }
 
+   .titulo-sub {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      flex-direction: column;
+      height: 60%;
+      margin: 0;
+      width: 100%;
+   }
 
    header .titulo-sub h2 {
       color: red;
       font-family: 'Koulen', sans-serif;
       font-weight: bold;
-      font-size: 5vmax;
+      font-size: 3.5vmax;
+      margin-top: 10px;
+   }
+
+   .titulo-sub p {
+      font-size: 13px;
+      margin-top: -20px;
+   }
+
+   .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 27%;      
+   }
+
+   .container nav {
+      margin-top: 0px;
+      font-size: 13px;
    }
 
 
    .container-2 {
-      margin-top: 30px;
+      width: 90%;
+      height: 125px;
+      margin-top: 80px;
    }
 
 
    .container-2 .text-container-2 {
-      width: 80%;
+      justify-content: flex-start;
+      width: 90%;
+      height: 100%;
+   }
+
+   .text-container-2 h2 {
+      margin-top: 12px;
+      font-size: 20px;
+   }
+
+   .text-container-2 p {
+      margin-top: -5px;
+      font-size: 14px;
+   }
+   .title-owl{
+      margin-top: 30px;
+      height: 50px;
+   }
+   .title-owl h3{
+      font-size: 1.7vmax;
+   }
+   footer{
+      font-size: 13px;
    }
 }

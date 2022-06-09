@@ -1,11 +1,11 @@
-indexAtual = 0,
-images = document.querySelectorAll("#slide div")
+indexAtual = 0;
+images = document.querySelectorAll("#slide div");
 max = images.length;
 
 function nextImage() {
 
     images[indexAtual]
-        .classList.remove("selected")
+        .classList.remove("selected");
 
     indexAtual++
 
@@ -18,7 +18,7 @@ function nextImage() {
 
 function start() {
     let time = 10000;
-    setInterval(() => { nextImage() }, time)
+    setInterval(() => { nextImage() }, time);
 
 }
 

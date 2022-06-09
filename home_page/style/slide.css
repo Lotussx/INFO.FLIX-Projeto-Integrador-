@@ -2,11 +2,6 @@
     box-sizing: border-box;
 }
 
-body {
-    width: 100vw;
-    height: 2000px;
-}
-
 .slide-pai {
     height: 80vh;
     width: 100vw;
@@ -38,9 +33,11 @@ body {
 
 #slide div.selected {
     display: block;
+    opacity: 1;
     animation: slide;
     animation-timing-function: ease-in-out;
     animation-duration: 10s;
+    animation-fill-mode: forwards;
 }
 
 
@@ -209,7 +206,7 @@ button i {
 }
 
 #film9 {
-    background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .99)100%), url('../img/slide/jw2.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .99)100%), url('../img/slide/topgun.jpg');
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;

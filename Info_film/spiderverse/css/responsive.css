@@ -125,61 +125,79 @@
 @media screen and (max-width: 700px) {
     header {
         flex-direction: column;
-        height: 20vh;
+        height: 15vh;
     }
 
     header .container {
         width: 100%;
         margin-left: 0%;
+        font-size: 13px;
     }
 
     header .titulo h2 {
         color: red;
         font-family: 'Koulen', sans-serif;
         font-weight: bold;
-        font-size: 5vmax;
+        font-size: 3.8vmax;
         margin-top: -15px;
-    }
-
-    .content1 {
-        margin-top: -50px;
     }
 
     .content2 {
         margin-top: -80px;
+        margin-left: 10px;
     }
 
-    .content2 h1 {
-        font-size: 3.5vw;
+    .box-film {
+        height: 50vh;
+    }
+
+    .content1 {
+        margin-top: -50px;
+        width: 38%;
     }
 
     .content2 p {
-        font-size: 2vw;
+        font-size: 10px;
     }
 
-    .info-dire h4 {
-        font: 1.9vw;
+    .nome-film {
+        width: 100%;
     }
 
-    .critica p {
-        font-size: 2vw;
+    .nome-film h1 {
+        font-size: 20px;
+    }
 
+    .genero-film {
+        width: 100%;
+    }
+
+    .sinopse {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    .info-sinopse {
+        width: 90%;
     }
 
     .info-dire {
         width: 50%;
-        height: 50px;
     }
 
     .info-dire h4 {
-        font-size: 2.1vw;
+        font-size: 13px;
     }
 
-    .critica h2 {
-        font-size: 3vw;
+    .critica h2{
+        font-size: 20px;
+        margin: 0 0 10px 0;
     }
-
-    .autor-critica h2 {
-        font-size: 3vw;
+    
+    .critica p{
+        font-size: 11px;
+    }
+    .autor-critica h2{
+        font-size: 12px;
     }
 }

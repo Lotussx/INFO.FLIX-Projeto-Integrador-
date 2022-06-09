@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+
+}
+
+header {
+    height: 15vh;
+    align-items: center;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+
+}
+
+header .container {
+    width: 25%;
+    margin-left: 50%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+
+.titulo {
+    width: 20vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header .titulo a {
+    text-decoration: none;
+}
+
+header .titulo h2 {
+    color: red;
+    font-family: 'Koulen', sans-serif;
+    font-weight: bold;
+    font-size: 2.5vmax;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #aaa;
+    margin-left: 20px;
+}
+
+header nav a:hover {
+    color: #FFFFFF;
+}
+
+.box-film {
+    width: 100vw;
+    height: 85vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .5)100%), url('../img/background/coringa.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content1 {
+    width: 25%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.poster {
+    width: auto;
+    height: 85%;
+}
+
+.poster img {
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+.content2 {
+    width: 65%;
+    height: 70%;
+    color: white;
+}
+
+.content2 h1 {
+    font-size: 2.1vmax;
+}
+
+.nome-film {
+    width: 60%;
+
+}
+
+.genero-film {
+    width: 60%;
+    margin-top: 3px;
+}
+
+.sinopse {
+    width: 60%;
+    margin-top: 50px;
+}
+
+.info-sinopse {
+    width: 90%;
+    margin-top: 5px;
+}
+
+.diretores {
+    width: 90%;
+    height: 20%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.info-dire {
+    width: 30%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.roteiristas {
+    width: 90%;
+    height: 20%;
+    margin-top: 5px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.container-critica {
+    width: 100vw;
+    height: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgb(61, 0, 0)100%);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.critica{
+    margin-top: 20px;
+    text-align: justify;
+    width: 90%;
+    height: 100%;
+    color: white;
+}
+.critica h2{
+    font-family: 'Koulen', sans-serif;
+    font-size: 2.3vmax;
+}
+
+.autor-critica{
+    width: 90%;
+    height: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: left;
+    color: white;
+}
+
+footer{
+    width: 100%;
+    height: 70px;
+    border-top: 1px solid rgba(250, 249, 249, 0.141);
+    background-color: #050505;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: rgba(255, 255, 255, 0.564);
+}
+ 
+
